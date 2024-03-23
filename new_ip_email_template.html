@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IP Address Change Notification</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 600px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+        color: #333;
+        font-size: 24px;
+    }
+    p {
+        color: #666;
+        font-size: 16px;
+    }
+    .ip-address {
+        font-size: 18px;
+        font-weight: bold;
+        color: #007BFF;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>IP Address Change Notification</h1>
+    <p>Your IP address has changed. Please take note of the new address:</p>
+    <p class="ip-address">{{IP_ADDRESS}}</p>
+</div>
+</body>
+</html>
